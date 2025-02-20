@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="arrow_detection" pkg="arrow_detection" type="arrow_07.py" output="screen">
+        <param name="left_arrow_image" value="$(find arrow_detection)/src/left_arrow.png" />
+        <param name="right_arrow_image" value="$(find arrow_detection)/src/right_arrow.png" />
+    </node>
+    <!--<include file="$(find robot_model_pkg)/launch/robot_xacro.launch" />-->
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/santhanam/arrow/devel
+
+Name: arrow_detection
+Description: Description of arrow_detection
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

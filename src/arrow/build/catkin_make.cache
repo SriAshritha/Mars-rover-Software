@@ -1,0 +1,2 @@
+arrow_detection
+-DCATKIN_DEVEL_PREFIX=/home/santhanam/arrow/devel -DCMAKE_INSTALL_PREFIX=/home/santhanam/arrow/install -G Unix Makefiles

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Launch the robot in Gazebo -->
+  
+  <include file="$(find robot_model_pkg)/launch/robot_xacro.launch" />
+  <rosparam file="$(find robot_model_pkg)/config/controllers.yaml" command="load"/>
+  <!-- Run the behavior tree script -->
+  <node name="bt" pkg="my_robot_behavior" type="bt.py" output="screen">
+  	<remap from="/cmd_vel" to="/Diff_Drive/diff_drive_controller/cmd_vel" />
+  </node>
+</launch>
