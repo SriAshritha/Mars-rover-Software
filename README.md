@@ -51,19 +51,38 @@ The system follows a modular design, ensuring scalability and adaptability. It c
 
 ## 🚀 Setup & Build Instructions
 
+
+# 1️⃣ Open a Terminal and Navigate to the Workspace 
 ```bash
-# 1️⃣ Open a Terminal and Navigate to the Workspace  
 cd ~/irc_Ws  # Navigate to the workspace
+```
 
 # 2️⃣ Build the Workspace
+```bash
 rm -f build devel # To rebuild again in your system
 catkin_make  # Build the ROS workspace
+```
 
 # 3️⃣ Source the Environment  
+```bash
 source devel/setup.bash  # Source the workspace setup
+```
 
-# 4️⃣ Run the Arrow Detection Node  
-rosrun arrow_detection arrow_node
+# 4️⃣ Run the Arrow Detection Node
+```bash
+roslaunch arrow_detection arrow.launch
+```
 
-# 5️⃣ Launch the Behavior Tree  
-roslaunch my_robot_behavior behavior_tree.launch
+# 5️⃣ Launch the Behavior Tree
+```bash 
+rosrun my_robot_behavior bt_2.py
+```
+
+# 6️⃣ Run the Converter
+```bash
+rosrun my_robot_behavior converter.py
+```
+
+
+## 📬 Reach out via:
+🔗 **LinkedIn**: [Mars Research Station, IIITDM](https://www.linkedin.com/company/mars-research-station/posts/?feedView=all) 
