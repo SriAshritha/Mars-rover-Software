@@ -49,7 +49,7 @@ The system follows a modular design, ensuring scalability and adaptability. It c
 - Ensures smooth translation of software-level navigation commands into physical movement.
 - Adapts commands based on rover-specific hardware configurations.
 
-## 🚀 Setup & Build Instructions
+## 🚀 Installation & Usage
 
 
 # 1️⃣ Open a Terminal and Navigate to the Workspace 
