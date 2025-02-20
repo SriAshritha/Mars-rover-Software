@@ -84,5 +84,6 @@ rosrun my_robot_behavior converter.py
 ```
 
 
-## 📬 Reach out via:
+## 📬 Reach out via :
 🔗 **LinkedIn**: [Mars Research Station, IIITDM](https://www.linkedin.com/company/mars-research-station/posts/?feedView=all) 
+🔗 **LinkedIn**: [Sri Ashritha P](https://www.linkedin.com/in/sri-ashritha-p-a5aa69294/) 
